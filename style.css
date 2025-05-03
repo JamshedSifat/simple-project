@@ -1,7 +1,11 @@
 :root{
     --font-family:Abel;
 }
+
+
+  
 .navbar{
+    background-color: rgb(255, 254, 254);
     img{
         width:auto;
         height: 30px;
@@ -48,6 +52,59 @@
     }
 }
 
+/* Heading-section */
+.header-section {
+    .hero-text{
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #0b0c2a;
+          }
+          p {
+            font-size: 1.1rem;
+            margin: 20px 0;
+          }
+    }
+    .btn-orange {
+        background-color: #ff6a00;
+        color: #fff;
+        border: none;
+       
+      }
+      .btn-orange:hover {
+        background-color: #e55c00;
+      }
+      
+      .review-box {
+        max-width: 240px;
+        border-radius: 1rem;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        font-size: 0.85rem;
+        transition: transform 0.2s ease;
+      }
+      .review-box:hover {
+        transform: translateY(-2px);
+      }
+      .highlight-star {
+        color: gold;
+      }
+      .hero-img {
+        position:absolute;
+      }
+      .light-bulb {
+        position: absolute;
+        top: 30%;
+        left: -30px;
+        font-size: 2rem;
+        color: #8a2be2;
+      }
+    
+      
+
+}
+
+  
+
 /* Service-section */
 .Service-section{
 .service-heading{
@@ -75,6 +132,13 @@
         width: 50px;
         height: 50px;
         padding:20px 0px;
+        i{
+            font-size: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 20%;
+            padding: 0px 6px;
+               }
 
     }
     h1{
@@ -260,6 +324,56 @@ footer{
     }
     
     }
+/* Newsletter-section */
+.Newsletter-section{
+    .title{
+        h1{
+            letter-spacing: 5px;
+            font-family: Roboto;
+            font-size: 14px;
+            color: #918c8c;
+        }
+        h2{
+            font-family: Roboto;
+            font-size: 40px;
+            color: #000;
+            padding: 10px 0px;
+        }
+          
+    }
+    .icons{
+       
+        i{
+            font-size: 150px;
+            background-color: white;
+            color: #f6300f;
+            border-radius: 20%;
+           
+               }
+    }
+    .textitems{
+        padding-top: 30px;
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            
+            padding: 10px 0px;
+        }
+        input{
+            border-radius: 20px;
+           box-shadow: #898484 0px 0px 10px;
+            border: none;
+            padding: 10px 20px;
+            margin: 20px 0px;
+        }
+        button{
+            background-color: #f6300f;
+        border-radius: 10px;
+        border: none;
+        width: 100%;
+        }
+    }
+}
 
 
 

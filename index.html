@@ -7,8 +7,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Font Awesome 6 CDN -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 <!-- font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
 <body>
     
 <!-- Nav section -->
-<nav class="navbar navbar-expand-lg navbar-light ">
+<nav class="navbar navbar-expand-lg navbar-light  ">
     <div class="container">
         <img src="img/logo1.png" alt="">
       <a class="navbar-brand" href="#"></a>
@@ -55,6 +56,50 @@
   </nav>
 
 
+  <section class="header-section 
+  ">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6 hero-text">
+        <h1>We boost<br>growth for your<br><strong>startup business</strong></h1>
+        <p>Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
+        <div class="d-flex align-items-center gap-3">
+          <button class="btn btn-orange px-4 py-2">Get Started</button>
+          <button class="btn btn-outline-secondary d-flex align-items-center">
+            <span class="me-2 ">&#9654;</span> Learn More
+          </button>
+        </div>
+      </div>
+      <div class="col-md-6 hero-img text-center mt-4 mt-md-0 position-relative">
+        <img src="img/man.png" alt="Person with phone" class="img-fluid rounded-circle">
+       <!-- Top right review -->
+<div class="position-absolute" style="top: 100px; right: 340px;z-index: 1;">
+  <div class="review-box d-flex align-items-center gap-2 shadow-sm p-2 rounded-4 bg-white">
+    <img src="https://img.icons8.com/ios-filled/24/000000/combo-chart--v1.png" alt="growth icon" />
+    <div>
+      <small class="fw-bold">100% Business Growth</small><br>
+      <small class="text-muted">⭐ 4.9 (1520 Reviews)</small>
+    </div>
+  </div>
+</div>
+
+<!-- Bottom left review -->
+<div class="position-absolute" style="bottom: 100px; left: 0px;">
+  <div class="review-box d-flex align-items-center gap-2 shadow-sm p-2 rounded-4 bg-white">
+   
+    <div>
+      <small class="fw-bold">100,000 Happy Clients</small><br>
+      <small class="text-muted">⭐ 4.9 (5k Reviews)</small>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </section>
+
+
+
   <!-- Services -->
   <section class="Service-section py-5">
 <div class="service-heading text-center">
@@ -67,7 +112,7 @@
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <span class="icon">
-          <i class="material-icons" style="font-size:48px;">analytics</i>
+          <i class="bi bi-messenger"  ></i>
           </span>
         <h1>Graphic Design</h1>
         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias unde inventore laboriosam quas fugiat fugit soluta quod ducimus corrupti saepe quidem aut, autem modi quae explicabo eum illum minus neque.</p>
@@ -82,7 +127,8 @@
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <span class="icon">
-            <i class="material-icons" style="font-size:48px;">videocam</i>
+            <i class="bi bi-camera-video-fill"></i>
+           
             </span>
           <h1>Vedio Editing</h1>
           <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias unde inventore laboriosam quas fugiat fugit soluta quod ducimus corrupti saepe quidem aut, autem modi quae explicabo eum illum minus neque.</p>
@@ -97,7 +143,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <span class="icon">
-              <i class="material-icons" style="font-size:48px;background-color: black; color:white ;border-radius:12px">bar_chart</i>
+              <i class="bi bi-bar-chart"></i>
               </span>
             <h1>Digital Marketing</h1>
             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias unde inventore laboriosam quas fugiat fugit soluta quod ducimus corrupti saepe quidem aut, autem modi quae explicabo eum illum minus neque.</p>
@@ -236,7 +282,25 @@
   </div>
 </section>
 
+<section class="Newsletter-section container text-center mb-5">
+  <div class="title text-center mb-2">
+    <h1>OUR TEAM</h1>
+    <h2>Subscribe Our Newsletter</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6 icons ">
+      <i class="bi bi-envelope-paper"></i>
+    </div>
+    <div class="col-md-6 textitems">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et maiores quia, ut quasi aperiam inventore quod placeat hic fugit illum deserunt odio dolore nemo necessitatibus.</p>
+      <form action="">
+        <input type="email" placeholder="Your E-mail here..." class="form-control">
+        <button type="submit" class="btn btn-primary">Subscribe Our Newsletter</button>
+    </div>
+  </div>
 
+
+</section>
 
 
 
@@ -266,7 +330,9 @@
   
 
 
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+         </script>
  
 </body>
 </html>
